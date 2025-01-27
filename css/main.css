@@ -1,0 +1,177 @@
+body {
+	font-family: sans-serif;
+	background-color: #1e1e1e;
+	color: papayawhip;
+
+	padding: 5px 10px;
+}
+
+.warning {
+	font-family: emoji;
+	font-style: oblique;
+
+	text-align: center;
+}
+
+a {
+	color: papayawhip;
+	text-decoration: none;
+}
+
+a:hover {
+	color: turquoise;
+}
+
+.block-link {
+	display: block;
+
+	width:100%;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.bg-setup {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.island {
+	padding: 0.5em 1em;
+	border-radius: 30px;
+	background-color: rgba(30.1,30.1,30.1,0.8);
+}
+
+.lr-margin {
+	margin: 10px auto;
+}
+
+.std-ratio {
+	aspect-ratio: 3/2;
+}
+
+.bordered {
+	border: 3px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+.banner {
+	overflow: auto;
+
+	background-image: url("Ocean1.jpg");
+
+	aspect-ratio: 3/1;
+}
+
+.banner>* {
+	margin: 15px auto;
+}
+
+.whitespace{
+	width: 30px;
+}
+
+#title {
+	display:flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 30px auto 50px auto;
+
+	height: fit-content;
+	width: fit-content;
+
+	background-color: rgba(30.1,30.1,30.1,0.4);
+
+	border-radius: 20px;
+}
+
+#title>h1{;
+	font-weight: lighter;
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+	/*text-shadow: -3px 0px #cccc29;*/
+
+	padding: 0.1em 0em 0.1em 0.2em;
+}
+
+#categories {
+	align-self: center;
+	justify-items: center;
+
+	margin: 30px 10px;
+
+  	display: grid;
+  	grid: auto-flow / 1fr 1fr 1fr 1fr;
+  	grid-auto-rows: min-content;
+  	column-gap: 20px;
+  	row-gap: 1em;
+}
+
+.preview {
+	width: 100%;
+	display: flex;
+	align-items: end;
+}
+
+#architechture {
+	background-image: url("../architechture/Arch3.jpg");
+}
+
+#realEstate {
+	background-image: url("../realEstate/RE1.jpg");
+}
+
+#automotive {
+	background-image: url("../automotive/Auto5.jpg");
+}
+
+#events {
+	background-image: url("../events/E5.jpg");
+}
+
+#pets {
+	background-image: url("../pets/Pets3.jpg");
+}
+
+#marine {
+	background-image: url("../marine/Marine2.jpg");
+}
+
+#gallery {
+	align-self: center;
+
+	margin: auto 10px;
+
+  	display: grid;
+  	grid: auto-flow / 1fr 1fr;
+  	column-gap: 20px;
+  	row-gap: 1em;
+}
+
+#gallery>figure>img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+#gallery>figure>video {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.video{
+	width: 100%;
+	border-radius: 15px;
+}
+
+.center-text {
+	text-align: center;
+}
